@@ -1,0 +1,92 @@
+:root {
+  /* Playful Toy-Store Palette */
+  --color-primary: #FF4F6D;          /* Bubblegum Coral */
+  --color-primary-hover: #F2365A;
+  --color-primary-light: #FFE4EA;
+  --color-primary-text: #FFFFFF;
+
+  --color-secondary: #3D7BFF;        /* Sky Blue */
+  --color-secondary-hover: #2563EB;
+  --color-secondary-light: #E3EDFF;
+
+  /* Candy Accents */
+  --color-accent-amber: #FFB800;     /* Sunshine Yellow */
+  --color-accent-teal: #14C6A4;      /* Mint */
+  --color-accent-coral: #FF7A45;     /* Tangerine */
+  --color-accent-sky: #3D7BFF;       /* Sky */
+  --color-accent-purple: #8B5CF6;    /* Grape */
+  --color-yellow: #FFC83D;
+  --color-yellow-light: #FFF4D1;
+  --color-mint: #14C6A4;
+  --color-mint-light: #DDF8F1;
+  --color-grape: #8B5CF6;
+  --color-grape-light: #EEE7FF;
+  --color-orange: #FF7A45;
+  --color-orange-light: #FFE8DC;
+
+  /* Surfaces & Canvas */
+  --color-bg: #FFF9F0;               /* Warm cream */
+  --color-surface: #FFFFFF;
+  --color-surface-hover: #FFF3E3;
+  --color-surface-subtle: #FFF6EA;
+
+  /* Typography */
+  --color-text-main: #2A2250;        /* Deep grape ink */
+  --color-text-secondary: #4B4470;
+  --color-text-muted: #7A7399;
+  --color-text-light: #A9A3C2;
+
+  /* Borders */
+  --color-border: #F0E6D8;
+  --color-border-focus: #FF4F6D;
+
+  /* Semantic */
+  --color-success: #12A37F;
+  --color-success-bg: #E2F8F0;
+  --color-warning: #D98E00;
+  --color-warning-bg: #FFF6DB;
+  --color-danger: #E5384F;
+  --color-danger-bg: #FFE8EB;
+  --color-info: #3D7BFF;
+  --color-info-bg: #E3EDFF;
+
+  /* Typography Tokens */
+  --font-family-heading: 'Fredoka', 'Nunito', system-ui, sans-serif;
+  --font-family-display: 'Fredoka', 'Nunito', system-ui, sans-serif;
+  --font-family-body: 'Nunito', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-family-mono: 'Nunito', system-ui, sans-serif;
+  --font-family-code: ui-monospace, SFMono-Regular, Menlo, monospace;
+  --color-teal: #14C6A4;
+
+  /* Soft, bouncy elevation */
+  --shadow-sm: 0 2px 6px rgba(42, 34, 80, 0.06);
+  --shadow-md: 0 8px 20px rgba(42, 34, 80, 0.08);
+  --shadow-lg: 0 16px 36px rgba(42, 34, 80, 0.12);
+  --shadow-xl: 0 24px 50px rgba(42, 34, 80, 0.16);
+  --shadow-card: 0 6px 18px rgba(42, 34, 80, 0.07);
+  --shadow-primary: 0 6px 0 #D62B4C;
+  --shadow-secondary: 0 6px 0 #1F56D6;
+  --shadow-pop: 0 5px 0 rgba(42, 34, 80, 0.12);
+
+  /* Rounded, friendly geometry */
+  --radius-xs: 6px;
+  --radius-sm: 12px;
+  --radius-md: 16px;
+  --radius-lg: 22px;
+  --radius-xl: 32px;
+  --radius-full: 999px;
+
+  /* Bouncy transitions */
+  --transition-fast: 150ms ease;
+  --transition-normal: 250ms ease;
+  --transition-bounce: 350ms cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* Candy gradients */
+  --gradient-primary: linear-gradient(135deg, #FF4F6D 0%, #FF7A45 100%);
+  --gradient-secondary: linear-gradient(135deg, #3D7BFF 0%, #8B5CF6 100%);
+  --gradient-accent: linear-gradient(135deg, #FFC83D 0%, #FF7A45 100%);
+  --gradient-teal: linear-gradient(135deg, #14C6A4 0%, #3D7BFF 100%);
+  --gradient-hero: linear-gradient(160deg, #FFF4D1 0%, #FFE4EA 55%, #E3EDFF 100%);
+  --gradient-candy: linear-gradient(135deg, #FF4F6D 0%, #FF7A45 100%);
+  --gradient-sky: linear-gradient(135deg, #3D7BFF 0%, #8B5CF6 100%);
+}

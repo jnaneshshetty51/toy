@@ -1,0 +1,16 @@
+{
+  "name": "ToyVerse India | Safe & Educational Toys",
+  "short_name": "ToyVerse",
+  "description": "India's premier curated toy store. BIS-certified STEM robotics, handcrafted wooden toys, and educational games.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFBF7",
+  "theme_color": "#FF6B6B",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}

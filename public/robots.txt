@@ -1,0 +1,19 @@
+# ToyVerse India - Robots.txt Rules for Search Engine Crawlers
+User-agent: *
+Allow: /
+Allow: /shop
+Allow: /product/
+Allow: /sitemap.xml
+
+# Restrict admin & private account pages from indexation
+Disallow: /admin
+Disallow: /admin/
+Disallow: /account
+Disallow: /account/
+Disallow: /checkout
+Disallow: /order-success/
+Disallow: /api/
+
+# Host and XML Sitemap Reference
+Host: https://toyverse.in
+Sitemap: https://toyverse.in/sitemap.xml
