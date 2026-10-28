@@ -60,6 +60,11 @@ export function initDatabase() {
       role TEXT NOT NULL DEFAULT 'customer',
       avatar TEXT,
       rewards_points INTEGER DEFAULT 450,
+      reset_token TEXT,
+      reset_expires INTEGER,
+      is_verified INTEGER DEFAULT 0,
+      verification_otp TEXT,
+      verification_expires INTEGER,
       created_at DATETIME DEFAULT CURRENT_TIMESTAMP
     );
 
@@ -79,6 +84,7 @@ export function initDatabase() {
       is_bestseller INTEGER DEFAULT 0,
       is_new_arrival INTEGER DEFAULT 0,
       images_json TEXT NOT NULL,
+      variants_json TEXT,
       description TEXT,
       features_json TEXT,
       specs_json TEXT,
@@ -102,6 +108,14 @@ export function initDatabase() {
       tracking_number TEXT,
       is_gift INTEGER DEFAULT 0,
       gift_note TEXT,
+      idempotency_key TEXT,
+      tax_amount REAL DEFAULT 0,
+      shipping_provider TEXT DEFAULT 'Delhivery',
+      invoice_number TEXT,
+      refund_amount REAL DEFAULT 0,
+      refund_status TEXT,
+      refund_reason TEXT,
+      payment_gateway_ref TEXT,
       created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
       FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE SET NULL
     );
